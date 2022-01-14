@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Gene Machine</title>
+    
+        <script src="docs/static/script.js" defer></script>
+        <script src="docs/static/traits.js" defer></script>
+
+        <link rel="stylesheet" href="docs/static/style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="index.html">
+                Gene Machine
+            </a>
+    
+            <div class="nav-items">
+                <a href="trait.html"><u>Trait Inheritance</u></a>
+                <a href="about.html">Genetic Engineering</a>
+                <a href="contact.html">Natural Selection</a>
+            </div>
+        </nav>
+
+        <div class="layout">
+            <span class="center absolute ml-4rem mt-10rem">
+                Generation 1
+            </span>
+
+            <div class="parentcards">
+                
+                <div class="parentCard">
+                    <div></div>
+                </div>
+
+                <div class="parentCard">
+                    <div></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn center-1 mt-2rem pointer">
+            Next Gen
+        </div>
+
+        <div class="settings">
+            <span>
+                Mutation Rate
+            </span>
+
+            <div>
+                <input type="number" min="0" max="100" value="1" id="mutation_rate">
+                %
+            </div>
+        </div>
+        
+    </body>
+</html>
