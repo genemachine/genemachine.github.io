@@ -26,25 +26,39 @@
         </nav>
 
         <div class="layout">
-            <span class="center absolute ml-4rem mt-10rem">
-                Generation 1
-            </span>
+            <div id="trait-sims">
+                <span class="center absolute ml-4rem mt-10rem">
+                    Generation 1
+                </span>
 
-            <div class="parentcards">
-                
-                <div class="parentCard">
-                    <div></div>
+                <div class="parentcards">
+                    
+                    <div class="parentCard">
+                        <div class="charpicker_r">
+                            <ion-icon name="chevron-back-outline" class="pointer"></ion-icon>
+                            <ion-icon name="chevron-forward-outline" class="pointer"></ion-icon>
+                        </div>
+
+                        <div class="charpicker_r">
+                            <ion-icon name="chevron-back-outline" class="pointer"></ion-icon>
+                            <ion-icon name="chevron-forward-outline" class="pointer"></ion-icon>
+                        </div>
+                    </div>
+
+                    <div class="parentCard">
+                        <div></div>
+                    </div>
                 </div>
+            
+        
 
-                <div class="parentCard">
-                    <div></div>
-                </div>
-            </div>
-
+            <div class="parentConnect"></div>
+            <div class="parentLink"></div>
         </div>
+    </div>
 
         <div class="btn center-1 mt-2rem pointer" onclick="startGen()">
-            Next Gen
+            Next Generation
         </div>
 
         <div class="settings">
@@ -58,5 +72,7 @@
             </div>
         </div>
         
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>
